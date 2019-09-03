@@ -50,6 +50,11 @@ navLinks[3].textContent = siteContent.nav["nav-item-3"];
 navLinks[4].textContent = siteContent.nav["nav-item-4"];
 navLinks[5].textContent = siteContent.nav["nav-item-5"];
 navLinks[6].textContent = siteContent.nav["nav-item-6"];
-//Set CTA Text
+
+//Set CTA Text For Heading
 let ctaTextH1 = document.querySelector('.cta-text h1');
 ctaTextH1.textContent = siteContent.cta.h1;
+
+//Set Button Text
+let ctaButtonText = document.querySelector('.cta-text button');
+ctaButtonText.textContent = siteContent.cta.button;
