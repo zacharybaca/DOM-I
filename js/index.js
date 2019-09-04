@@ -58,3 +58,7 @@ ctaTextH1.textContent = siteContent.cta.h1;
 //Set Button Text
 let ctaButtonText = document.querySelector('.cta-text button');
 ctaButtonText.textContent = siteContent.cta.button;
+
+//Set CTA Image
+let ctaImage = document.getElementById("cta-img");
+ctaImage.setAttribute('src', siteContent["cta"]["img-src"])
